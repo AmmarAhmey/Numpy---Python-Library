@@ -1,0 +1,5 @@
+WORK IN PROGRESS
+- Numpy array data types 
+    - How to check array data type.
+    - How to define an array with a specific data type.
+    - Converting an array from one data type to another. 
