@@ -42,7 +42,19 @@ Indexing Numpy Arrays
             - Concatenating 2D arrays with same rows but different columns
             - Concatenating 2D arrays with same columns but different rows
         - Adding new columns
+            - Adding columns with array that is in row shape. 
         - Adding new rows
+            - Adding rows with array that is in column shape.
     - Deleting data
-        - Deleting rows
-        - Deleting columns 
+        - Deleting specific rows
+        - Deleting specific columns 
+        - Deleting rows filtered based on specific values. 
+        - Deleting columns filtered based on specific values.
+- Data Aggregation 
+    - Sum 
+    - mean
+    - median
+    - min
+    - max
+    - cummulative sum
+    
