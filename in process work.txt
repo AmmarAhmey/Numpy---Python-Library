@@ -1,8 +1,4 @@
                                                         WORK IN PROGRESS
-Numpy array data types 
-- How to check array data type.
-- How to define an array with a specific data type.
-- Converting an array from one data type to another. 
 Indexing Numpy Arrays
 - Indexing 1D Arrays
 - Indexing Multi-dimensional Arrays
@@ -56,5 +52,39 @@ Indexing Numpy Arrays
     - median
     - min
     - max
-    - cummulative sum
+    - cumulative sum
+    - All the above operations in the row direction and column direction 
+- Array Vectorization 
+    - Vectorized numpy operations such as addition, multiplication with scaler or other matrices. 
+    - Converting a simple python function to a vectorized function using the power of numpy and then 
+    - using this converted function to apply the same function but now in vectorized form. 
+- Array Broadcasting
+    - what is array broadcasting.
+    - The 2 properties required for broadcasting .
+    - How a 1D arrange must be arranged so that is can be compatible for broadcasting and eventually be compatible for mathematical operations with other array. 
+- Checking a numpy function documentation 
+- Saving and Loading Numpy Arrays
+    - saving to numpy array file ‘npy’, the fastest for saving and loading. 
+    - Saving to other possible formats such as pkl, csv etc. 
+- Flipping and Transposing 
+    - Flipping arrays of data 
+        - Flipping only rows, 
+        - Flipping only columns
+        - Flipping rows and columns at the same time. 
+    - Flipping image arrays (pixel arrays) for data augmentation.
+        - Flipping image upside down
+        - Flipping image right to left
+        - Flipping the colors. 
+    - Rotating arrays
+        - Transposing rows to columns, columns to rows. 
+        - Using transpose method, rotating images 
+            - Rotating row wise, column wise and colors. 
+    - Separating colors of image pixels, manipulating those pixel values and recombine them for augmented images. 
+- Splitting and Stacking Arrays with Numpy
+    - Different variations of splitting arrays related to normal data 
+    - Different variations of splitting arrays of image data
+    - Image Data augmentation with Numpy
+        - For example, flipping or rotating images. Separating different color pixels, making changes in those pixel values and then combine them again.
+- Stacking arrays of same or different dimensions
+    - Stacking row wise and column wise. 
     
