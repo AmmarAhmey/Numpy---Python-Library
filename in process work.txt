@@ -1,11 +1,4 @@
-                                                        WORK IN PROGRESS
-- Sorting numpy arrays
-    - Sorting 1D arrays
-    - Sorting 2D arrays 
-    - The concept of axis in numpy arrays
-        - Sorting arrays on default axis
-        - Sorting array with respect to rows
-        - Sorting arrays with respect to columns 
+                                                        WORK IN PROGRESS      
 - Adding and Removing data
     - Array Concatenation
         - Concatenation of 1D arrays
